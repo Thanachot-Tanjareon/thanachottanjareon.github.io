@@ -29,8 +29,8 @@ class Sidebar {
                     </div>
 
                     <div class="sidebar__menu">
-                        <a href="/${BASE_URL}/" class="link__menu --userSelect-none">About</a>
-                        <a href="/${BASE_URL}/projects" class="link__menu --userSelect-none">My Projects</a>
+                        <a href="${BASE_URL}/" class="link__menu --userSelect-none">About</a>
+                        <a href="${BASE_URL}/projects" class="link__menu --userSelect-none">My Projects</a>
 
                         ${this.ContactsComponent.Layout()}
                     </div>

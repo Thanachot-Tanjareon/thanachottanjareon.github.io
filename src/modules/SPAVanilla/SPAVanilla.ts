@@ -1,4 +1,5 @@
 import { SPAInterface, Routes } from "./@SPAVanilla.interface";
+const { BASE_URL } = import.meta.env;
 
 
 class SPAVanilla implements SPAInterface {
@@ -19,16 +20,22 @@ class SPAVanilla implements SPAInterface {
         this.SPALoading();
     }
 
-    private SPALoading(): void {
+    public SPALoading(): void {
         this.Body.addEventListener("click", (event: Event): void => {
             if (event.target instanceof HTMLAnchorElement) {
                 if (event.target.nodeName === "A" && event.target.href.match(/^https:\/\/thanachot-tanjareon.github.io\//)) {
                     event.preventDefault();
                     this.current_path = event.target.pathname;
-
                     
                     window.history.pushState(event.target.href, "", this.current_path);
 
+                    this.SPARender(this.current_path);
+                } else if (event.target.nodeName === "A" && !event.target.href.match(/^https/)) {
+                    event.preventDefault();
+                    this.current_path = event.target.pathname;
+                    
+                    window.history.pushState(event.target.href, "", this.current_path);
+    
                     this.SPARender(this.current_path);
                 }
             }

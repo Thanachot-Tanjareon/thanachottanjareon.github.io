@@ -9,7 +9,7 @@ const { BASE_URL } = import.meta.env;
 export const myIntro: IntroInterface = {
     "name": "Thanachot Tanjareon",
     "profileUrl": {
-        "url": `${BASE_URL}/images/profile-image.jpg`,
+        "url": `${BASE_URL}images/profile-image.jpg`,
         "explaination_image": "Thanachot Tanjareon's profile"
     },
     "age": new CalcAge(6, 6, 2006).age,
@@ -17,43 +17,43 @@ export const myIntro: IntroInterface = {
         "coding": [
             {
                 "skill": "HTML",
-                "icon": `${BASE_URL}/images/icons/html-5-svgrepo-com.svg`
+                "icon": `${BASE_URL}images/icons/html-5-svgrepo-com.svg`
             },
             {
                 "skill": "CSS",
-                "icon": `${BASE_URL}/images/icons/css3-svgrepo-com.svg`
+                "icon": `${BASE_URL}images/icons/css3-svgrepo-com.svg`
             },
             {
                 "skill": "JavaScript",
-                "icon": `${BASE_URL}/images/icons/js-official-svgrepo-com.svg`
+                "icon": `${BASE_URL}images/icons/js-official-svgrepo-com.svg`
             },
             {
                 "skill": "NodeJS",
-                "icon": `${BASE_URL}/images/icons/nodejs-1-logo-svgrepo-com.svg`
+                "icon": `${BASE_URL}images/icons/nodejs-1-logo-svgrepo-com.svg`
             },
             {
                 "skill": "TypeScript",
-                "icon": `${BASE_URL}/images/icons/typescript-logo-svgrepo-com.svg`
+                "icon": `${BASE_URL}images/icons/typescript-logo-svgrepo-com.svg`
             },
             {
                 "skill": "PHP",
-                "icon": `${BASE_URL}/images/icons/php-svgrepo-com.svg`
+                "icon": `${BASE_URL}images/icons/php-svgrepo-com.svg`
             },
             {
                 "skill": "MySQL",
-                "icon": `${BASE_URL}/images/icons/mysql-logo-svgrepo-com.svg`
+                "icon": `${BASE_URL}images/icons/mysql-logo-svgrepo-com.svg`
             }
         ],
         "graphic": [
             {
                 "skill": "Photoshop",
-                "icon": `${BASE_URL}/images/icons/photoshop-cc-logo-svgrepo-com.svg`
+                "icon": `${BASE_URL}images/icons/photoshop-cc-logo-svgrepo-com.svg`
             }
         ],
         "media": [
             {
                 "skill": "Premiere pro",
-                "icon": `${BASE_URL}/images/icons/premiere-cc-logo-svgrepo-com.svg`
+                "icon": `${BASE_URL}images/icons/premiere-cc-logo-svgrepo-com.svg`
             }
         ]
     },
@@ -63,7 +63,7 @@ export const myIntro: IntroInterface = {
     "contacts": {
         "facebook": {
             "icon": {
-                "url": `${BASE_URL}/images/icons/facebook-color-svgrepo-com.svg`,
+                "url": `${BASE_URL}images/icons/facebook-color-svgrepo-com.svg`,
                 "icon_explaination": "Facebook icon"
             },
             "text": "Thanachot Tanjareon",
@@ -71,14 +71,14 @@ export const myIntro: IntroInterface = {
         },
         "gmail": {
             "icon": {
-                "url": `${BASE_URL}/images/icons/gmail-old-svgrepo-com.svg`,
+                "url": `${BASE_URL}images/icons/gmail-old-svgrepo-com.svg`,
                 "icon_explaination": "Gmail icon"
             },
             "text": "thanachot2549.orther@gmail.com"
         },
         "github": {
             "icon": {
-                "url": `${BASE_URL}/images/icons/github-142-svgrepo-com.svg`,
+                "url": `${BASE_URL}images/icons/github-142-svgrepo-com.svg`,
                 "icon_explaination": "Github icon"
             },
             "text": "Thanachot Tanjareon",

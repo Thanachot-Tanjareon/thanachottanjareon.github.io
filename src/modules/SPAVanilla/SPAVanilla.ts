@@ -1,5 +1,4 @@
 import { SPAInterface, Routes } from "./@SPAVanilla.interface";
-const { BASE_URL } = import.meta.env;
 
 
 class SPAVanilla implements SPAInterface {

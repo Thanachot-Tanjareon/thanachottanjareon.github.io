@@ -1,0 +1,3 @@
+ewriteEngine on
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L,QSA]

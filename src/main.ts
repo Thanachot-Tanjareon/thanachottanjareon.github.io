@@ -4,6 +4,8 @@ import "./style/main.css";
 import "./style/responsive.css";
 import "bootstrap-icons/font/bootstrap-icons.min.css";
 
+import "./SPAConfig";
+
 
 export const myIntro: IntroInterface = {
     "name": "Thanachot Tanjareon",

@@ -11,11 +11,11 @@ import Projects from "./pages/Projects";
 const app: HTMLElement = document.querySelector("#app") as HTMLElement;
 
 export const SPA = new SPAVanilla({
-    "/": {
+    "thanachottanjareon/": {
         title: "Thanachot Tanjareon | Portfolio",
         pageLayout: new Home(myIntro).Layout()
     },
-    "/projects": {
+    "thanachottanjareon/projects": {
         title: "Thanachot Tanjareon | Projects",
         pageLayout: new Projects(myIntro).Layout()
     }

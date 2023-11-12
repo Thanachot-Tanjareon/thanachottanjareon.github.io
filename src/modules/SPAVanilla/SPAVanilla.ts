@@ -22,7 +22,7 @@ class SPAVanilla implements SPAInterface {
     private SPALoading(): void {
         this.Body.addEventListener("click", (event: Event): void => {
             if (event.target instanceof HTMLAnchorElement) {
-                if (event.target.nodeName === "A" && !event.target.href.match(/^https/)) {
+                if (event.target.nodeName === "A" && event.target.href.match(/^https:\/\/thanachot-tanjareon.github.io\//)) {
                     event.preventDefault();
                     this.current_path = event.target.pathname;
 

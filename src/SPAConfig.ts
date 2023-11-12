@@ -21,8 +21,6 @@ export const SPA = new SPAVanilla({
     }
 }, app);
 
-window.addEventListener("load", (): void => SPA.SPALoading());
-
 
 const speedTyping: number = 145;
 const speedEraser: number = 230;

@@ -48,7 +48,7 @@ export const myIntro: IntroInterface = {
         "graphic": [
             {
                 "skill": "Photoshop",
-                "icon": "/images/icons/photoshop-cc-logo-svgrepo-com.svg`
+                "icon": "/images/icons/photoshop-cc-logo-svgrepo-com.svg"
             }
         ],
         "media": [

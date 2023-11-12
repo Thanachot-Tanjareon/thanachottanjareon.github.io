@@ -5,13 +5,11 @@ import "./style/responsive.css";
 import "bootstrap-icons/font/bootstrap-icons.min.css";
 const { BASE_URL } = import.meta.env;
 
-import "./SPAConfig";
-
 
 export const myIntro: IntroInterface = {
     "name": "Thanachot Tanjareon",
     "profileUrl": {
-        "url": "/images/profile-image.jpg",
+        "url": `${BASE_URL}/images/profile-image.jpg`,
         "explaination_image": "Thanachot Tanjareon's profile"
     },
     "age": new CalcAge(6, 6, 2006).age,
